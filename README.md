@@ -23,3 +23,5 @@ print("tol =",tol,"ave =",ave)
 #print("{0:5d},{p:4.1f}".format(1234,p=123.11))
 #指定key,word 寫法 起始為0項 或字母=來使用
 
+for b in range(0,101):
+#宣告變數b執行100變
