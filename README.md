@@ -1,27 +1,15 @@
 nm1 = eval(input("enter nm1="))
-nm2 = eval(input("enter another nm2="))
-
-tol = nm1 + nm2
-ave = tol/2
-
-print("nm1 =",nm1,"nm2 =",nm2)
-print("tol =",tol,"ave =",ave)
-"""
-#print(format(1.22,"5.1f"))
-#在format裡面給予5格並取浮點數第1位
-
-#print("%10d"%(123))
-#在print裡面設定 "%+數字+指定器" //被替換項目 %(+數字) //指定替換項目
-
-
-#print("|%-10d|"%(123))
-在指定器%10d 內加入負號 可以向左對
-
-#print("%10d%10d%10.f"%(1,2,3))
-#多項指定器用法
-
-#print("{0:5d},{p:4.1f}".format(1234,p=123.11))
-#指定key,word 寫法 起始為0項 或字母=來使用
+nm2 = eval(input("enter another nm2=")
+#讓使用者輸入2個變數
 
 for b in range(0,101):
 #宣告變數b執行100變
+
+if nm0<=nm1 and nm2>=nm3:
+elif nm3<=0:
+else:
+    print("")
+#if 0小於1而且2大於3
+
+print用法:https://github.com/zempo123/python-in-fju/issues/5
+int函式庫:https://github.com/zempo123/python-in-fju/issues/4
