@@ -1,10 +1,8 @@
-nm1 = eval(input("enter nm1="))
+nm1 = eval(input("enter nm1=")) 
 nm2 = eval(input("enter another nm2=")
 #讓使用者輸入2個變數
-
 for b in range(0,101):
 #宣告變數b執行100變
-
 if nm0<=nm1 and nm2>=nm3:
 elif nm3<=0:
 else:
