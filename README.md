@@ -11,7 +11,9 @@ for b in range(0,101):
 if nm0<=nm1 and nm2>=nm3:
 
 elif nm3<=0:
+
 else:
+
     print("")
     
 #if 0小於1而且2大於3
