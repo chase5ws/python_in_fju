@@ -1,0 +1,26 @@
+def findALLPrime(x,y):
+    tmp =[2,3,5,7]
+    cmp=[]
+    for i in range(x, y + 1):
+        for j in tmp:
+            if not i%j and i!=j:
+                break
+        else:
+           cmp.append(i)
+    return cmp
+
+def main():
+    x,y=map(int,input("2個數字請用空白為間隔\nenter 2 number:").split() )
+    #x,y=eval(input("enter 2 number:"))
+    #x=1
+    #y=3
+    ary=[]
+    ary = findALLPrime(x,y)
+    size = len(ary)
+    count=0
+    for i in range (size):
+        print("%2d"%(ary[i]),end=" ")
+        count+=1
+        if count%5==0 and count!=0:
+            print()
+main()
